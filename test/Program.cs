@@ -99,6 +99,7 @@ namespace test
             myClass mc = new myClass();
             mc.aFunc();
             mc.afunc1();
+            mc.afun2();
             Console.ReadLine();
         }
     }

@@ -64,5 +64,45 @@ namespace test
             Console.WriteLine("a = {0}", a);
             Console.WriteLine("b = {0}", b);
         }
+
+        public void afun2()
+        {
+            int a = 21;
+            int c;
+
+            c = a;
+            Console.WriteLine("Line 1 - =  c 的值 = {0}", c);
+
+            c += a;
+            Console.WriteLine("Line 2 - += c 的值 = {0}", c);
+
+            c -= a;
+            Console.WriteLine("Line 3 - -=  c 的值 = {0}", c);
+
+            c *= a;
+            Console.WriteLine("Line 4 - *=  c 的值 = {0}", c);
+
+            c /= a;
+            Console.WriteLine("Line 5 - /=  c 的值 = {0}", c);
+
+            c = 200;
+            c %= a;
+            Console.WriteLine("Line 6 - %=  c 的值 = {0}", c);
+
+            c <<= 2;
+            Console.WriteLine("Line 7 - <<=  c 的值 = {0}", c);
+
+            c >>= 2;
+            Console.WriteLine("Line 8 - >>=  c 的值 = {0}", c);
+
+            c &= 2;
+            Console.WriteLine("Line 9 - &=  c 的值 = {0}", c);
+
+            c ^= 2;
+            Console.WriteLine("Line 10 - ^=  c 的值 = {0}", c);
+
+            c |= 2;
+            Console.WriteLine("Line 11 - |=  c 的值 = {0}", c);
+        }
     }
 }
