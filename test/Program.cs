@@ -98,6 +98,7 @@ namespace test
             Console.WriteLine("c1={0}, c2={1}", SampleClass.c1, SampleClass.c2);
             myClass mc = new myClass();
             mc.aFunc();
+            mc.afunc1();
             Console.ReadLine();
         }
     }
