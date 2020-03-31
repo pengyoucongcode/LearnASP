@@ -101,6 +101,9 @@ namespace test
             mc.afunc1();
             mc.afun2();
             Console.ReadLine();
+            Console.WriteLine("==================");
+            myClass myClass = new myClass();
+            myClass.afunc1();
         }
     }
 }
